@@ -21,3 +21,16 @@
 <script src="options.js"></script>
 <script src="tty.js"></script>
 <script src="user.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('h1').hide();
+  $('#help').hide();
+  $('#lights').hide();
+  $('#open').hide();
+  setTimeout(function(){
+    $("#open").trigger("click");
+    tty.windows[0].maximize();
+  }, 100);
+});
+</script>
