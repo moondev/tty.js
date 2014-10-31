@@ -90,6 +90,7 @@ body {
   margin-top: -2px;
   float: left;
   cursor: pointer;
+  display:none;
 }
 
 .tab:hover {
@@ -135,6 +136,7 @@ h1 {
   padding: 10px 25px;
   color: white;
   border-top: #e15729 solid 10px;
+  display:none;
 }
 
 #open, #lights {
@@ -154,6 +156,7 @@ h1 {
 #open {
   top: 10px;
   background: #333;
+  display:none;
 }
 
 #lights {
@@ -161,6 +164,7 @@ h1 {
   height: 46px;
   top: 60px;
   background: #555;
+  display:none;
 }
 
 #open:hover, #lights:hover {
@@ -178,6 +182,8 @@ h1 {
   position: fixed;
   bottom: 10px;
   left: 10px;
+  display:none;
 }
 
 .dark h1, .dark #help { display: none; }
+
